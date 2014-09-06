@@ -1,5 +1,5 @@
 /*
- * https:github.com/Pfju/
+ * https://github.com/Pfju/
  ************************
  * Exercise 1-1:
  * Run the "hello world" program on your system. Experiment with
@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-int main()
+int main(int argc, char *argv[])
 {
 	printf("hello, ");
 	printf("world");
@@ -16,3 +16,4 @@ int main()
 
 	return 0;
 }
+

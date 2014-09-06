@@ -1,5 +1,5 @@
 /*
- * https:github.com/Pfju/
+ * https://github.com/Pfju/
  ************************
  * Exercise 1-2:
  * Experiment to find out what happens when prints´s argument string
@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-int main()
+int main(int argc, char *argv[])
 {
 	printf("hello, ");
 	printf("world");

@@ -1,9 +1,9 @@
 /*
  * https://github.com/Pfju/
  ************************
- * Exercise 1-3:
- * Modify the temperature conversion program to print a heading above
- * the table.
+ * Exercise 1-4:
+ * Write a program to print the corresponding Celsius to Fahrenheit
+ * table.
  */
 
 #include <stdio.h>
@@ -23,12 +23,12 @@ int main(int argc, char *argv[])
 	printf("Fahrenheit | Celsius\n");
 	printf("--------------------\n");
 
-	fahr = lower;
-	while(fahr <= upper)
+	celsius = lower;
+	while(celsius <= upper)
 	{
-		celsius = (5.0 / 9.0) * (fahr - 32.0);
-		printf("%3.0f %16.1f\n", fahr, celsius);
-		fahr = fahr + step;
+		fahr = celsius * 9.0 / 5.0 + 32.0;
+		printf("%3.0f %16.0f\n", fahr, celsius);
+		celsius = celsius + step;
 	}
 
 	return 0;

@@ -1,4 +1,5 @@
 K&R-Exercises
 =============
 
-my solutions for the exercises of a great programming book
+My solutions for the exercises of "The C Programming Language" from
+Kernighan and Ritchie.
